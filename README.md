@@ -31,21 +31,21 @@ A general overview of the system is below
 ## Hardware
 
 - DUT (device under test)
--   Arduino Nano (for now, esp32 coming soon)
--   MCP4725 digital analog converter (DAC)
--   ADS1115 analog digital converter (ADC)
--   MCP2515
+  -   Arduino Nano (for now, esp32 coming soon)
+  -   MCP4725 digital analog converter (DAC)
+  -   ADS1115 analog digital converter (ADC)
+  -   MCP2515
 - Test runner
--   Raspberry pi 4
--   Raspberry pi CAN shield by seeed studio
--   DAC
--   ADC
+  -   Raspberry pi 4
+  -   Raspberry pi CAN shield by seeed studio
+  -   DAC
+  -   ADC
 
 ---
 
 ## Software
 
-- Docker, to creat a combined test runner and test repo image
+- Docker, to create a combined test runner and test repo image
 - Pytest to do the actual assertions
 - Arduino CLI to monitor the arduino serial interface, and push built code
 - Gitlab for Ci/CD
