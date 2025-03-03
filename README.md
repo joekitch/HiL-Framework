@@ -23,7 +23,7 @@ I've touched on different aspects of such a system, and even fully planned out o
 
 A general overview of the system is below
 <p align="left">
-  <img src="Pics/HiL framework project.drawio.png?raw=true">
+  <img src="docs/images/HiL framework project.drawio.png?raw=true">
 </p>
 
 ---
