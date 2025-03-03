@@ -7,6 +7,8 @@ RUN apt-get update && apt-get install -y \
     python3-dev \
     gcc \
     make \
+    i2c-tools \
+    python3-smbus \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy requirements first (for better caching)
